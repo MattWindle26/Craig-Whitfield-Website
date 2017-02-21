@@ -1,0 +1,1299 @@
+body {
+  font-size: 1rem;
+  font-family: "Work Sans", sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: "Work Sans", sans-serif;
+  margin-top: 0;
+}
+
+h1, h2 {
+  color: #CAEBF2;
+  font-weight: 500;
+}
+
+h1 {
+  position: relative;
+}
+h1::before {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  top: 100%;
+  width: 50px;
+  height: 5px;
+  background: #FF3B3F;
+  display: block;
+}
+
+p, span, li {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+  color: #CAEBF2;
+}
+
+a {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #FF3B3F;
+}
+
+ul {
+  padding: 0;
+}
+ul li {
+  list-style-type: none;
+}
+
+.svg--Agenda-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Anchor-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Antenna1-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Antenna2-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Arrow-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Astronaut-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Bag-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Bascketball-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--BatteryFull-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--BatteryLow-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Bicycle-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--BigTruck-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Blog-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Bomb-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Book-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--BottleofWIne-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Bourbon-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Bread-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Briefcase-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Bulb-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--CD-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Calculator-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Car-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Carioca-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Cassette-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Chart-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Chart2-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--ChartDown-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--ChartUp-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--ChemicalGlass-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Click-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--ClipboardChart-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--ClipboardText-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--ClosedLock-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Cloud-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--CoffeeToGo-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Column-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--CompactCamera-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Compass-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--CompassTool-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Controller-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Corkscrew-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Crown-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Cup-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--DSLRCamera-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Delete-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--DesktopMonitor-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--DiamondRing-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Dislike-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Dollar-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Dollars-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Download-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--DownloadCloud-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Drop-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Edit-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--EmptyBox-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Espresso-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Exit-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--ExitFullScreen-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Export-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Eye-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--FemaleFigure-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--File-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--FileBox-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Files-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Flag-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Floppy-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Folder-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Footbal-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--ForkandKnife-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Forward-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--FullScreen-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--FullShoppingCart-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Gameboy-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Glasses-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Goto-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Handicap-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Hanger-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Headset-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Heart-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Help-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Hourglass-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--House-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Icecream1-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Icecream2-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Imbox-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Info-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Ipod-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Key-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Keyboard-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Layers-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Like-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Linked-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--List-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Magnet-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Mail-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--ManFigure-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Mastercard-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Medal-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Media-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Megaphone-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Menu-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Message-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--MessageLeft-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--MessageRight-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Microphone-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Microphone2-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Mouse-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Movie-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Mug-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--MusicMixer-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--MusicNote-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--MusicNote2-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Mute-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Next-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Notebook-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Notes-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--On-Off-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--OpenedLock-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--PaperClip-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Pause-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Pen-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Pencil-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Phone-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Phone2-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--PicnicBasket-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Picture-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Pill-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Pizza-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Plaine-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Planet-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Plaster-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Play-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Podium-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Pointer-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Pool-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--PowerOff-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Printer-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Pulse-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Puzzle-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Radio-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Restart-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Resume-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Ringer-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Rolodex-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Scisors-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Screwdriver-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Search-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Seringe-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Settings-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Shaker-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Share-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Shield-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--ShoppingCart-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Signal-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--SimCard-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Snikers-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Soccer-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Soda-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--SodaCan-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Speaker-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Speaker2-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Speedometter-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Star-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Starship-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Starship2-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Stop-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--StorageBox-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--TV-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Tablet-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Tag-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--TeaMug-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Telesocpe-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--TennisBall-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Tie-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Time-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Timer-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Tools-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Trousers-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Truck-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Tshirt-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Typing-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Umbrella-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Underpants-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Unlinked-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--UploadCLoud-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--User-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Users-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Video-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Volume-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Wallet-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Watch-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Water-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Web-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Webcam-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Wheelbarrow-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--WineGlass-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--WorldGlobe-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--WorldWide-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--Wrench-dims {
+  width: 32px;
+  height: 32px;
+}
+
+.svg--tick-dims {
+  width: 442.533px;
+  height: 442.533px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+}
+body ::selection, html ::selection {
+  background: #FF3B3F;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -webkit-box-direction: column;
+  -webkit-box-orient: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.flex-container.row {
+  -webkit-box-direction: normal;
+  -webkit-box-orient: horizontal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.flex-container.row-reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+}
+.container h1:nth-of-type(1) {
+  margin-top: 0;
+}
+
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  background: #FF3B3F;
+  transition: all .2s ease-in-out;
+}
+header .logo a {
+  color: #CAEBF2;
+  font-weight: bold;
+}
+header img {
+  width: 65px;
+}
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -webkit-box-direction: column;
+  -webkit-box-orient: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+  height: 100vh;
+  background: rgba(202, 235, 242, 0.97);
+}
+header nav .current {
+  text-decoration: underline;
+}
+header nav a {
+  display: block;
+  padding: 15px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+  font-size: 1.4em;
+  color: #ffffff;
+  text-decoration: none;
+}
+header nav a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.trigger-nav {
+  display: inline-block;
+  position: relative;
+  width: 20px;
+  height: 30px;
+  background: 0 0;
+  cursor: pointer;
+  border: 0;
+}
+
+.trigger-nav.open-nav {
+  z-index: 9;
+}
+.trigger-nav.open-nav .inner .icon-bar {
+  background: #FF3B3F;
+}
+
+.trigger-nav:focus {
+  outline: 0;
+}
+
+.trigger-nav .inner {
+  position: absolute;
+  z-index: 9;
+  top: 50%;
+  right: 0;
+  width: 20px;
+  height: 18px;
+  margin: -9px 0 0 -9px;
+}
+
+.trigger-nav .inner .icon-bar {
+  position: absolute;
+  left: 0;
+  width: 20px;
+  height: 2px;
+  background: #CAEBF2;
+  transition: all 0.3s ease-in-out;
+}
+
+.trigger-nav .inner .icon-bar.top {
+  top: 0;
+}
+
+.trigger-nav .inner .icon-bar.middle {
+  top: 8px;
+}
+
+.trigger-nav .inner .icon-bar.bottom {
+  bottom: 0;
+}
+
+.trigger-nav.open-nav .inner .icon-bar.middle {
+  opacity: 0;
+}
+
+.trigger-nav.open-nav .inner .icon-bar.top {
+  top: 8px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.trigger-nav.open-nav .inner .icon-bar.bottom {
+  bottom: 8px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.scroll-to-top-btn {
+  display: block;
+  position: fixed;
+  right: -55px;
+  bottom: 10px;
+  width: 40px;
+  height: 38px;
+  background: url(../images/icons/scroll-top.svg) center center no-repeat #FF3B3F;
+  background-size: 60%;
+  text-align: center;
+  z-index: 900;
+  opacity: 0;
+  -webkit-box-shadow: 3px 4px 9px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 3px 4px 9px 0 rgba(0, 0, 0, 0.15);
+  -webkit-transition: right 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55), opacity 0.3s, color 0.3s;
+  -moz-transition: right 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55), opacity 0.3s, color 0.3s;
+  -o-transition: right 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55), opacity 0.3s, color 0.3s;
+  transition: right 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55), opacity 0.3s, color 0.3s;
+}
+
+.scroll-to-top-btn.visible {
+  right: 10px;
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .trigger-nav {
+    display: none;
+  }
+
+  header nav {
+    display: block !important;
+    background: none;
+    position: static;
+    width: auto;
+    padding: 0;
+    height: auto;
+  }
+  header nav a {
+    display: inline-block;
+    font-size: .9em;
+    font-weight: bold;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #CAEBF2;
+    padding: 10px;
+  }
+}

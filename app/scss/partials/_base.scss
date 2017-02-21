@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+}
+
+body, html{
+  margin: 0;
+
+  ::selection {
+    background: $secondaryColor;
+    color: $white;
+  }
+}
+
+a{
+  text-decoration: none;
+}
+
+.flex-container{
+  @include flex;
+  @include flex-column;
+}
+
+.flex-container.row{
+  @include flex-row;
+  @include flex-wrap;
+  @include flex-space-between;
+}
+
+.flex-container.row-reverse{
+  @include flex-row-reverse;
+  @include flex-wrap;
+  @include flex-space-between;
+}
+
+.container{
+  margin: 0 auto;
+  padding: 20px;
+
+  h1:nth-of-type(1){
+    margin-top: 0;
+  }
+}
