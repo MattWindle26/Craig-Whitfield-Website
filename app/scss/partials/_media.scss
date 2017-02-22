@@ -3,32 +3,3 @@ $small-tablet: "(min-width: 600px)";
 $tablet: "(min-width: 768px)";
 $laptop: "(min-width: 1024px)";
 $desktop: "(min-width: 1440px)";
-
-@media #{$small-tablet} {
-
-}
-
-@media #{$tablet} {
-  .trigger-nav{
-    display: none;
-  }
-
-  header nav{
-    display: block !important;
-    background: none;
-    position: static;
-    width: auto;
-    padding: 0;
-    height: auto;
-
-    a{
-      display: inline-block;
-      font-size: .9em;
-      font-weight: bold;
-      font-family: $secondaryFont;
-      color: $primaryColor;
-      padding: 10px;
-    }
-  }
-
-}

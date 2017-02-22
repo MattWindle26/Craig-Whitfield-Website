@@ -1,57 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
 $primaryFont: 'Work Sans', sans-serif;
-$secondaryFont:  'Source Sans Pro', sans-serif;
+$secondaryFont:  'Roboto', sans-serif;
 
-body{
-    font-size: 1rem;
-    font-family: $primaryFont;
-}
 
-h1, h2 ,h3{
-  font-family: $primaryFont;
-  margin-top: 0;
-}
-
-h1, h2{
-  color: $primaryColor;
-  font-weight: 500;
-}
-
-h1{
-  position: relative;
-
-  &::before{
-    position: absolute;
-    content: '';
-    bottom: 0;
-    left: 0;
-    top: 100%;
-    width: 50px;
-    height: 5px;
-    background: $secondaryColor;
-    display: block;
-  }
-}
-
-p, span, li{
+p,a,li,{
   font-family: $secondaryFont;
-  font-size: 0.9rem;
-  line-height: 1.6rem;
-  color: $primaryColor;
-}
-
-a{
-  font-family:$secondaryFont;
+  font-size: 1.6rem;
   color: $secondaryColor;
-}
-
-ul{
-  padding: 0;
-
-  li{
-    list-style-type: none;
-  }
-}
-
-
-.left-content h1{
+  text-decoration: none;
 }
